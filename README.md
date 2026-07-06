@@ -4,7 +4,6 @@
 
 ``` bash
 git clone <URL_REPOZITORIJUMA>
-cd <NAZIV_PROJEKTA>
 ```
 
 ------------------------------------------------------------------------
@@ -61,24 +60,22 @@ pip3 install -r requirements.txt
 
 ## 5. Provera instalacije
 
-Možete proveriti da li su biblioteke uspešno instalirane:
 
 ``` bash
+pip list
 pip3 list
 ```
 
 ili
 
 ``` bash
-
+pip freeze
 pip3 freeze
 ```
 
 ------------------------------------------------------------------------
 
 ## 6. Deaktivacija virtualnog okruženja
-
-Kada završite sa radom:
 
 ``` bash
 deactivate
