@@ -1,6 +1,6 @@
 # Paths
 TRAIN_DIR = "../data/train"
-VAL_DIR = "../data/val"
+VAL_DIR = "../data/valid"
 TEST_DIR = "../data/test"
 MODEL_SAVE_PATH = "../models/best_model.pth"
 
