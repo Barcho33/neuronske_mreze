@@ -30,7 +30,7 @@ def unfreeze_model(model):
 
 
 if __name__ == "__main__":
-    model = get_resnet50(num_classes=8, pretrained=True, freeze_backbone=True)
+    model = get_resnet50(num_classes=6, pretrained=True, freeze_backbone=True)
 
     dummy_input = torch.randn(1, 3, 224, 224)
     output = model(dummy_input)
