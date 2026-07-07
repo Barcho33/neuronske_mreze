@@ -7,3 +7,18 @@ env/
 data/**
 !data/
 !data/labels.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Saved models
+models/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
