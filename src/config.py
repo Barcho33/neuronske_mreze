@@ -5,7 +5,7 @@ TEST_DIR = "../data/test"
 MODEL_SAVE_PATH = "../models/best_model.pth"
 
 # Dataset
-NUM_CLASSES = 8
+NUM_CLASSES = 6
 IMAGE_SIZE = 224
 BATCH_SIZE = 32
 NUM_WORKERS = 4
